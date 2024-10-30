@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2727499903387454910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9132690372987756097}
+  - component: {fileID: 2344930594434407393}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9132690372987756097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2727499903387454910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4754276, y: -1.8387282, z: -0.5058861}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2344930594434407393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2727499903387454910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4411236c6141ca4aba85a4f9ffe036d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardGameObject: {fileID: 5075693067833519420, guid: c0eae5059bc4aa249bda05ffcb911c5d, type: 3}
+  LevelManagerGameObject: {fileID: 9023823839375967219, guid: ccae7e9fe328a67438d77d96c9934783, type: 3}
+  defaultSprites:
+  - {fileID: 21300000, guid: 9f5b6e5572d9534469e26ebfcbb31ab0, type: 3}
+  - {fileID: 21300000, guid: b7b3c96d3aaee6a4689a556d92284b8f, type: 3}
+  - {fileID: 21300000, guid: f53b2f5504a348543a0617e30ff602f2, type: 3}
+  - {fileID: 21300000, guid: 157036fc2b01e7842aaf3491209f5302, type: 3}
+  - {fileID: 21300000, guid: 81e18806eedbd7b479cccc6223bb8bcd, type: 3}
+  - {fileID: 21300000, guid: 0bbe9b4811a94784486571319d3d3c65, type: 3}
+  - {fileID: 21300000, guid: b104800bcf6b1b94aaf58074c709c08e, type: 3}
+  - {fileID: 21300000, guid: f59b618a7bb081e4499d6c3d4859b58f, type: 3}
+  tntSprites:
+  - {fileID: 21300000, guid: 44f52f7e1632a4348b87c725aea9b134, type: 3}
+  - {fileID: 21300000, guid: 69db9da0179329d44a65496dcfc6bc4d, type: 3}
+  - {fileID: 21300000, guid: f3644b240f94a99418ec231b5c7d2be2, type: 3}
+  - {fileID: 21300000, guid: 86730ddd0495e074294869d250418dc1, type: 3}
+  width: 0
+  height: 0
+  cubeNoColorPrefab: {fileID: 3078638198199041053, guid: 7a53acef0faf32a468aca27c3db36f75, type: 3}
+  isAnimating: 0
+  move_left: {fileID: 0}
+  boxCount: {fileID: 0}
+  vaseCount: {fileID: 0}
+  stoneCount: {fileID: 0}
